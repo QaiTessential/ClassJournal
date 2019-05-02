@@ -4,19 +4,19 @@ import java.io.Serializable;
 
 public class DailyGrade implements Serializable {
 
-    private int weekNum;
+    private String weekNum;
     private String grade;
 
-    public DailyGrade(int weekNum, String grade) {
+    public DailyGrade(String weekNum, String grade) {
         this.weekNum = weekNum;
         this.grade = grade;
     }
 
-    public int getWeekNum() {
+    public String getWeekNum() {
         return weekNum;
     }
 
-    public String grade() {
+    public String getGrade() {
         return grade;
     }
 }
